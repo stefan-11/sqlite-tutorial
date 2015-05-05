@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>489EE381-1AC9-4D26-B603-97B12CC57EEC</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>SQLiteDBSample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>389A90D1486D72BC2A18D25FAA2EA829C6E0B2BE</key>
 		<string>github.com:stefan-11/sqlite-tutorial.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SQLiteDBSample/SQLiteDBSample.xcodeproj/project.xcworkspace</string>
+	<string>SQLiteDBSample/SQLiteDBSample.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>389A90D1486D72BC2A18D25FAA2EA829C6E0B2BE</key>
