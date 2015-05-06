@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F82F64DC1AFA823B007BE887 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F82F64DB1AFA823B007BE887 /* libsqlite3.dylib */; };
+		F82F64DF1AFA82C8007BE887 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F82F64DE1AFA82C8007BE887 /* DBManager.m */; };
 		F83F25131AF960F10071367F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F83F25121AF960F10071367F /* main.m */; };
 		F83F25161AF960F10071367F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F83F25151AF960F10071367F /* AppDelegate.m */; };
 		F83F25191AF960F10071367F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F83F25181AF960F10071367F /* ViewController.m */; };
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F82F64DB1AFA823B007BE887 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F82F64DD1AFA82C8007BE887 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		F82F64DE1AFA82C8007BE887 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
 		F83F250D1AF960F10071367F /* SQLiteDBSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLiteDBSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83F25111AF960F10071367F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F83F25121AF960F10071367F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F82F64DC1AFA823B007BE887 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 		F83F25041AF960F10071367F = {
 			isa = PBXGroup;
 			children = (
+				F82F64DB1AFA823B007BE887 /* libsqlite3.dylib */,
 				F83F250F1AF960F10071367F /* SQLiteDBSample */,
 				F83F25291AF960F20071367F /* SQLiteDBSampleTests */,
 				F83F250E1AF960F10071367F /* Products */,
@@ -89,6 +96,8 @@
 				F83F251D1AF960F10071367F /* Images.xcassets */,
 				F83F251F1AF960F20071367F /* LaunchScreen.xib */,
 				F83F25101AF960F10071367F /* Supporting Files */,
+				F82F64DD1AFA82C8007BE887 /* DBManager.h */,
+				F82F64DE1AFA82C8007BE887 /* DBManager.m */,
 			);
 			path = SQLiteDBSample;
 			sourceTree = "<group>";
@@ -222,6 +231,7 @@
 				F83F25191AF960F10071367F /* ViewController.m in Sources */,
 				F83F25161AF960F10071367F /* AppDelegate.m in Sources */,
 				F83F25131AF960F10071367F /* main.m in Sources */,
+				F82F64DF1AFA82C8007BE887 /* DBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +426,7 @@
 				F83F25321AF960F20071367F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F83F25331AF960F20071367F /* Build configuration list for PBXNativeTarget "SQLiteDBSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +435,7 @@
 				F83F25351AF960F20071367F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
