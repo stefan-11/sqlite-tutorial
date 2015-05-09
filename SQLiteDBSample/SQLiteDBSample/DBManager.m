@@ -44,6 +44,23 @@
     }
 }
 
+
+-(NSArray *)loadDataFromDB:(NSString *)query{
+    //Run the query and indicate that it is not executable
+    //The query string is converted to a char* object
+    [self runQuery:[query UTF8String] isQueryExecutable:NO];
+    
+    //Return the loaded results
+    return (NSArray *)self.arrResults;
+}
+
+-(void)executeQuery:(NSString *)query{
+    //Run the query and indicate that it is executable
+    [self runQuery:[query UTF8String] isQueryExecutable:YES];
+    
+}
+
+
 -(void)runQuery:(const char *)query isQueryExecutable:(BOOL)queryExecutable{
     //create a sqlite object
     sqlite3 *sqlite3Database;
@@ -141,11 +158,9 @@
         //close database
         sqlite3_close(sqlite3Database);
     }
-    
+
     
 }
-
-
 
 
 

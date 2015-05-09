@@ -16,6 +16,8 @@
 		F83F251E1AF960F10071367F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83F251D1AF960F10071367F /* Images.xcassets */; };
 		F83F25211AF960F20071367F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F83F251F1AF960F20071367F /* LaunchScreen.xib */; };
 		F83F252D1AF960F20071367F /* SQLiteDBSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F83F252C1AF960F20071367F /* SQLiteDBSampleTests.m */; };
+		F8AE4D0D1AFD45C50057B8BB /* sampledb.db in Resources */ = {isa = PBXBuildFile; fileRef = F8AE4D0C1AFD45C50057B8BB /* sampledb.db */; };
+		F8AE4D101AFD498F0057B8BB /* EditInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AE4D0F1AFD498F0057B8BB /* EditInfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,9 @@
 		F83F25261AF960F20071367F /* SQLiteDBSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLiteDBSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83F252B1AF960F20071367F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F83F252C1AF960F20071367F /* SQLiteDBSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLiteDBSampleTests.m; sourceTree = "<group>"; };
+		F8AE4D0C1AFD45C50057B8BB /* sampledb.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = sampledb.db; sourceTree = "<group>"; };
+		F8AE4D0E1AFD498F0057B8BB /* EditInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditInfoViewController.h; sourceTree = "<group>"; };
+		F8AE4D0F1AFD498F0057B8BB /* EditInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditInfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,11 +98,14 @@
 				F83F25171AF960F10071367F /* ViewController.h */,
 				F83F25181AF960F10071367F /* ViewController.m */,
 				F83F251A1AF960F10071367F /* Main.storyboard */,
+				F8AE4D0E1AFD498F0057B8BB /* EditInfoViewController.h */,
+				F8AE4D0F1AFD498F0057B8BB /* EditInfoViewController.m */,
 				F83F251D1AF960F10071367F /* Images.xcassets */,
 				F83F251F1AF960F20071367F /* LaunchScreen.xib */,
 				F83F25101AF960F10071367F /* Supporting Files */,
 				F82F64DD1AFA82C8007BE887 /* DBManager.h */,
 				F82F64DE1AFA82C8007BE887 /* DBManager.m */,
+				F8AE4D0C1AFD45C50057B8BB /* sampledb.db */,
 			);
 			path = SQLiteDBSample;
 			sourceTree = "<group>";
@@ -211,6 +219,7 @@
 				F83F251C1AF960F10071367F /* Main.storyboard in Resources */,
 				F83F25211AF960F20071367F /* LaunchScreen.xib in Resources */,
 				F83F251E1AF960F10071367F /* Images.xcassets in Resources */,
+				F8AE4D0D1AFD45C50057B8BB /* sampledb.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8AE4D101AFD498F0057B8BB /* EditInfoViewController.m in Sources */,
 				F83F25191AF960F10071367F /* ViewController.m in Sources */,
 				F83F25161AF960F10071367F /* AppDelegate.m in Sources */,
 				F83F25131AF960F10071367F /* main.m in Sources */,
